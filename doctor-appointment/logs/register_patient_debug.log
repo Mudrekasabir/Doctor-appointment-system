@@ -1,0 +1,122 @@
+[2025-11-17 01:13:29] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:13:29] User already logged in, redirecting to role-select
+[2025-11-17 01:13:32] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:13:32] User already logged in, redirecting to role-select
+[2025-11-17 01:13:34] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:13:34] User already logged in, redirecting to role-select
+[2025-11-17 01:15:39] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:15:39] User already logged in, redirecting to role-select
+[2025-11-17 01:15:41] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:15:41] User already logged in, redirecting to role-select
+[2025-11-17 01:20:39] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:20:39] User already logged in, redirecting to role-select
+[2025-11-17 01:20:41] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:20:41] User already logged in, redirecting to role-select
+[2025-11-17 01:21:56] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:21:56] User already logged in, redirecting to role-select
+[2025-11-17 01:28:00] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:28:00] User already logged in, redirecting to role-select
+[2025-11-17 01:28:03] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:28:03] User already logged in, redirecting to role-select
+[2025-11-17 01:29:03] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:29:03] User already logged in, redirecting to role-select
+[2025-11-17 01:29:04] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:29:04] User already logged in, redirecting to role-select
+[2025-11-17 01:29:10] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:29:10] User already logged in, redirecting to role-select
+[2025-11-17 01:45:11] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:45:11] GET request (no POST)
+[2025-11-17 01:45:19] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:45:19] GET request (no POST)
+[2025-11-17 01:45:56] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:45:56] GET request (no POST)
+[2025-11-17 01:46:49] DEBUG: register_patient.php loaded. REQUEST_METHOD=POST
+[2025-11-17 01:46:49] POST received: {"csrf_token":"391f2f2b5cafb23abd137daff071f884f048e0e044f56fdd","username":"sunita","full_name":"Sunita Williams","email":"sunita@gmail.com","contact":"+919999000078","password":"psunita"}
+[2025-11-17 01:46:49] FILES: []
+[2025-11-17 01:46:49] Inserted user id: 10
+[2025-11-17 01:46:49] Created patients_profiles for user_id: 10
+[2025-11-17 01:46:49] Registration success, redirecting to patient/dashboard.php
+[2025-11-17 01:48:35] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:48:35] User already logged in, redirecting to role-select
+[2025-11-17 01:49:57] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:49:57] User already logged in, redirecting to role-select
+[2025-11-17 01:56:40] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:56:40] GET request (no POST)
+[2025-11-17 01:57:03] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:57:03] GET request (no POST)
+[2025-11-17 01:57:54] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 01:57:54] GET request (no POST)
+[2025-11-17 01:58:32] DEBUG: register_patient.php loaded. REQUEST_METHOD=POST
+[2025-11-17 01:58:32] POST received: {"csrf_token":"63d0ebe94d70b5b14f4bc8b080e29205510af08e8c4a7f1c","username":"anil","full_name":"Anil Kapoor","email":"anil@gmail.com","contact":"+919999000374","password":"anil"}
+[2025-11-17 01:58:32] FILES: []
+[2025-11-17 01:58:32] Inserted user id: 11
+[2025-11-17 01:58:32] Created patients_profiles for user_id: 11
+[2025-11-17 01:58:32] Registration success, redirecting to patient/profile_edit.php
+[2025-11-17 08:37:35] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 08:37:35] User already logged in, redirecting to role-select
+[2025-11-17 09:45:50] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 09:45:50] GET request (no POST)
+[2025-11-17 09:46:18] DEBUG: register_patient.php loaded. REQUEST_METHOD=POST
+[2025-11-17 09:46:18] POST received: {"csrf_token":"1cb8d9a0a64fc1064f5f04e5a340669107c678ae452679f6","username":"pranjal","full_name":"Pranjal Pal","email":"pranjal@gmail.com","contact":"+919999052836","password":"pranjal"}
+[2025-11-17 09:46:18] FILES: []
+[2025-11-17 09:46:18] Inserted user id: 12
+[2025-11-17 09:46:18] Created patients_profiles for user_id: 12
+[2025-11-17 09:46:18] Registration success, redirecting to patient/profile_edit.php
+[2025-11-17 10:01:06] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:01:06] GET request (no POST)
+[2025-11-17 10:01:24] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:01:24] GET request (no POST)
+[2025-11-17 10:01:39] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:01:39] GET request (no POST)
+[2025-11-17 10:07:33] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:07:33] User already logged in, redirecting to role-select
+[2025-11-17 10:20:32] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:20:32] User already logged in, redirecting to role-select
+[2025-11-17 10:20:38] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:20:38] User already logged in, redirecting to role-select
+[2025-11-17 10:20:40] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:20:40] User already logged in, redirecting to role-select
+[2025-11-17 10:21:09] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:21:09] User already logged in, redirecting to role-select
+[2025-11-17 10:21:10] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:21:10] User already logged in, redirecting to role-select
+[2025-11-17 10:21:12] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:21:12] User already logged in, redirecting to role-select
+[2025-11-17 10:21:19] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:21:19] User already logged in, redirecting to role-select
+[2025-11-17 10:21:22] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:21:22] User already logged in, redirecting to role-select
+[2025-11-17 10:21:23] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 10:21:23] User already logged in, redirecting to role-select
+[2025-11-17 20:17:41] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-17 20:17:41] GET request (no POST)
+[2025-11-17 20:18:37] DEBUG: register_patient.php loaded. REQUEST_METHOD=POST
+[2025-11-17 20:18:37] POST received: {"csrf_token":"4726382eebd8e8952aa5f1b7a555521cbf0042b9702f7fc6","username":"test_book1","full_name":"test_book1","email":"test_book1@gmail.com","contact":"7326493466","password":"test_book1"}
+[2025-11-17 20:18:37] FILES: []
+[2025-11-17 20:18:37] Inserted user id: 13
+[2025-11-17 20:18:37] Created patients_profiles for user_id: 13
+[2025-11-17 20:18:37] Registration success, redirecting to patient/profile_edit.php
+[2025-11-18 11:29:27] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-18 11:29:27] GET request (no POST)
+[2025-11-18 20:45:29] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-18 20:45:29] User already logged in, redirecting to role-select
+[2025-11-18 21:55:51] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-18 21:55:51] User already logged in, redirecting to role-select
+[2025-11-18 21:55:58] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-18 21:55:58] User already logged in, redirecting to role-select
+[2025-11-19 08:44:37] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-19 08:44:37] User already logged in, redirecting to role-select
+[2025-11-19 08:44:41] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-19 08:44:41] User already logged in, redirecting to role-select
+[2025-11-19 08:45:29] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-19 08:45:29] User already logged in, redirecting to role-select
+[2025-11-19 08:49:35] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-19 08:49:35] User already logged in, redirecting to role-select
+[2025-11-19 09:03:39] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-19 09:03:39] GET request (no POST)
+[2025-11-20 13:21:41] DEBUG: register_patient.php loaded. REQUEST_METHOD=GET
+[2025-11-20 13:21:41] GET request (no POST)
+[2025-11-20 13:22:34] DEBUG: register_patient.php loaded. REQUEST_METHOD=POST
+[2025-11-20 13:22:34] POST received: {"_csrf":"848c5a02258f667a33737e9543ef3be1bd890563f8422b984f5b5c2a7c77f954","username":"pankaj","full_name":"Pankal Kumar","email":"pankaj@gmail.com","contact":"7383493466","password":"pankaj"}
+[2025-11-20 13:22:34] FILES: []
+[2025-11-20 13:22:34] CSRF token invalid.

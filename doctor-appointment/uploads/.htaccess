@@ -1,0 +1,9 @@
+# Prevent PHP execution
+<FilesMatch "\.(php|pl|py|jsp|asp|sh)$">
+  Require all denied
+</FilesMatch>
+
+# Allow images
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+  Require all granted
+</FilesMatch>

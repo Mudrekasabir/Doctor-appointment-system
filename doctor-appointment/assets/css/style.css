@@ -1,0 +1,190 @@
+/* Doctor grid and card */
+.grid-doctors{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.doc-card{display:flex;gap:12px;padding:12px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfdff);box-shadow:0 6px 18px rgba(20,40,80,0.04);min-height:140px}
+.doc-img{width:96px;height:96px;border-radius:10px;object-fit:cover;border:1px solid #edf4ff}
+.doc-body{display:flex;flex-direction:column;flex:1}
+.small{font-size:0.9rem;color:var(--muted)}
+.muted{color:var(--muted);font-size:0.95rem}
+.role-btn.small-btn{padding:8px 12px;border-radius:8px;font-size:0.9rem}
+.slots-grid{display:flex;flex-wrap:wrap;gap:8px}
+.slot-btn{padding:8px 10px;border-radius:8px;border:1px solid #dbeafe;background:#fff;cursor:pointer}
+.pagination a{margin:0 8px;text-decoration:none;color:var(--accent)}
+@media (max-width:600px){ .grid-doctors{grid-template-columns:1fr} .doc-card{flex-direction:row} }
+/* Modal background */
+.modal-bg {
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  background: rgba(0,0,0,0.4);
+  opacity:0;
+  pointer-events:none;
+  transition:0.2s;
+}
+.modal-bg.active {
+  opacity:1;
+  pointer-events:auto;
+}
+
+/* Modal itself */
+.modal {
+  position: fixed;
+  top:50%; left:50%;
+  transform: translate(-50%,-50%) scale(0.8);
+  background:#fff;
+  padding:24px;
+  border-radius:12px;
+  width:360px;
+  max-width:90%;
+  box-shadow:0 10px 40px rgba(0,0,0,0.15);
+  opacity:0;
+  pointer-events:none;
+  transition:0.2s;
+  z-index:9999;
+}
+.modal.active {
+  transform: translate(-50%,-50%) scale(1);
+  opacity:1;
+  pointer-events:auto;
+}
+.modal-content h3 {
+  margin-top:0;
+}
+.cancel-btn {
+  background:#ddd;
+  border:none;
+  padding:10px;
+  border-radius:8px;
+  margin-top:10px;
+  cursor:pointer;
+}
+/* Doctor dashboard styles */
+.stat-card{background:#fff;padding:12px;border-radius:10px;box-shadow:0 6px 20px rgba(10,30,70,0.04);flex:1;text-align:center}
+.stat-num{font-size:20px;font-weight:700}
+.stat-label{font-size:13px;color:var(--muted)}
+.appt-table td, .appt-table th{padding:8px;border-bottom:1px solid #f2f6ff}
+/* Admin specific */
+.error{background:#ffe6e6;color:#8b0000;padding:8px;border-radius:8px}
+.stat-card{padding:12px;border-radius:10px;box-shadow:0 8px 20px rgba(10,30,70,0.04);flex:1;text-align:center}
+/* Patient profile form tweaks */
+.center-card form label{display:block;margin-bottom:8px}
+.center-card img{max-width:100%;height:auto}
+/* Notification cards */
+.notif-card {
+  background:#fff;
+  padding:15px;
+  border-radius:10px;
+  margin-bottom:12px;
+  box-shadow:0 6px 20px rgba(20,40,90,0.06);
+}
+
+.notif-unread {
+  border-left:4px solid #3b82f6;
+  background:#f0f7ff;
+}
+
+.notif-title {
+  font-weight:700;
+  margin-bottom:5px;
+}
+
+.notif-msg {
+  color:#444;
+  margin-bottom:6px;
+}
+
+.notif-time {
+  font-size:12px;
+  color:#888;
+}
+/* Admin layout */
+.admin-wrap { display:flex; }
+.admin-sidebar {
+  width:220px;
+  background:#0f172a;
+  color:#fff;
+  border-radius:12px;
+  padding:12px;
+  height:calc(100vh - 40px);
+  box-shadow:0 10px 40px rgba(2,6,23,0.4);
+  position:sticky; top:20px;
+}
+.admin-sidebar .admin-brand a { color:#fff; font-weight:700; font-size:18px; text-decoration:none; }
+.admin-nav { margin-top:12px; display:flex; flex-direction:column; gap:6px; }
+.admin-nav .nav-item { color:#cbd5e1; padding:8px 10px; border-radius:8px; text-decoration:none; display:block; }
+.admin-nav .nav-item:hover { background:rgba(255,255,255,0.05); color:#fff; }
+.center-card { background:transparent; padding:0; }
+@media (max-width:900px) {
+  .admin-wrap { flex-direction:column; }
+  .admin-sidebar { width:100%; height:auto; position:relative; }
+  .admin-aside { width:auto; }
+}
+/* flash messages */
+.flash-msg { padding:10px;border-radius:8px;margin-bottom:10px; }
+.flash-msg.success { background:#e6ffef;color:#064e3b;border:1px solid #bbf7d0; }
+.flash-msg.info { background:#eef2ff;color:#0f172a;border:1px solid #c7d2fe; }
+.flash-msg.error { background:#ffecec;color:#7f1d1d;border:1px solid #fca5a5; }
+/* Patient UI enhancements */
+.page-wrap{background:transparent}
+.grid-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.doc-card{background:#fff;padding:12px;border-radius:12px;box-shadow:0 8px 30px rgba(10,30,80,0.04);display:flex;flex-direction:column}
+.doc-image img{width:100%;height:150px;object-fit:cover;border-radius:8px}
+.doc-body{padding:8px 0}
+.role-btn{background:#2563eb;color:#fff;padding:8px 12px;border-radius:10px;text-decoration:none;display:inline-block}
+.small-btn{padding:6px 8px;font-size:13px}
+.icon-btn{background:transparent;border:none;font-size:18px;position:relative}
+.badge{background:#ef4444;color:#fff;padding:2px 6px;border-radius:999px;font-size:12px;margin-left:6px}
+.tabs{display:flex;gap:10px;margin-bottom:12px}
+.tab-btn{padding:8px 12px;border-radius:8px;border:1px solid #e6eaf2;background:#fff;cursor:pointer}
+.tab-btn.active{background:#eef2ff;border-color:#c7d2fe}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.wide-table{width:100%;border-collapse:collapse}
+.wide-table th,.wide-table td{padding:10px;border-bottom:1px solid #f1f5f9;text-align:left}
+.status.booked{background:#e6ffef;color:#065f46;padding:6px 8px;border-radius:8px}
+.status.cancelled{background:#fff1f2;color:#7f1d1d;padding:6px 8px;border-radius:8px}
+.muted{color:#6b7280}
+.flash-msg{padding:10px;border-radius:8px;margin-bottom:10px}
+.flash-msg.success{background:#e6ffef;color:#064e3b;border:1px solid #bbf7d0}
+.flash-msg.info{background:#eef2ff;color:#0f172a;border:1px solid #c7d2fe}
+.flash-msg.error{background:#ffecec;color:#7f1d1d;border:1px solid #fca5a5}
+.notif-list{list-style:none;padding:0}
+.notif-list li{padding:12px;border-radius:10px;border:1px solid #f1f5f9;margin-bottom:10px}
+.notif-list li.unread{background:#f8fafc}
+.avail-pill{background:#f1f5f9;padding:8px 10px;border-radius:14px;font-size:13px}
+.pagination{display:flex;gap:6px}
+.page-link{padding:8px 10px;background:#fff;border-radius:8px;border:1px solid #e6eaf2;text-decoration:none}
+.page-link.active{background:#2563eb;color:#fff}
+/* doctor dashboard specific */
+/* doctor dashboard hamburger (vertical list) */
+.hamburger-wrap{position:relative;display:inline-block}
+.hamburger-menu{
+  display:none;
+  position:absolute;
+  right:0;
+  top:36px;
+  background:#fff;
+  border:1px solid #e6eaf2;
+  padding:8px;
+  border-radius:8px;
+  box-shadow:0 12px 30px rgba(10,30,80,0.06);
+  min-width:220px;
+  z-index:40;
+  /* vertical layout */
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+.hamburger-menu a{
+  display:block;
+  padding:10px 12px;
+  color:#0f172a;
+  text-decoration:none;
+  border-radius:6px;
+  width:100%;
+}
+.hamburger-menu a:hover{background:#f1f5f9}
+
+/* dayoff UI */
+.time-block { display:flex; gap:8px; align-items:center; margin-bottom:6px; }
+
+/* admin cards */
+.card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 20px rgba(10,30,80,0.04);text-align:center}
